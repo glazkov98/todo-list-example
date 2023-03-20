@@ -1,0 +1,21 @@
+.todo-list-item {
+    display: flex !important;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.todo-list-item-text {
+    margin-right: auto;
+}
+
+.todo-list-item.completed {
+    background-color: aquamarine;
+}
+
+.todo-list-item-btn-remove {
+    margin-left: 10px;
+}
+
+.todos-not-found {
+    margin-top: 15px;
+}
